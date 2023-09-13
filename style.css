@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://kp2129.com/lowpoly.png);
+    background-position: right;
+}
+
+form{
+    background-color: #fff;
+    border-radius: 1pc;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1pc 0;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 2pc 3pc;
+}
+
+.divFrom, .nameBoxDiv{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* #nameBox{
+    background-color: #fff;
+    border-radius: 1pc;
+    margin: 1pc 0;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    padding: 2pc 3pc;
+    min-width: 300px;
+} */
+
+ul{
+    word-break: break-all;
+    color: white;
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 5px grey;
+    box-sizing: border-box;
+    min-width: 10pc;
+    padding: 0.5rem 1rem;
+}
+
+
+button {
+    align-items: center;
+    border-radius: 1pc;
+    border-style: solid;
+    font-size: small;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    width: 230px;
+    height: 194px;
+    margin: 0 auto;
+  }
+  
+  .terminal_toolbar {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(#504b45 0%, #3c3b37 100%);
+  }
+  
+  .butt {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-right: 5px;
+    font-size: 8px;
+    height: 12px;
+    width: 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 100%;
+    background: linear-gradient(#7d7871 0%, #595953 100%);
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+    box-shadow: 0px 0px 1px 0px #41403A, 0px 1px 1px 0px #474642;
+  }
+  
+  .btn-color {
+    background: #ee411a;
+  }
+  
+  .btn:hover {
+    cursor: pointer;
+  }
+  
+  .btn:focus {
+    outline: none;
+  }
+  
+  .butt--exit {
+    background: linear-gradient(#f37458 0%, #de4c12 100%);
+  }
+  
+  .user {
+    color: #d5d0ce;
+    margin-left: 6px;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  
+  .terminal_body {
+    background: rgba(56, 4, 40, 0.9);
+    height: calc(100% - 30px);
+    padding-top: 2px;
+    margin-top: -1px;
+    font-size: 12px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  li{
+    margin-left: 1rem;
+  }
+
+  /* .terminal_promt {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  } */
+  
+  .terminal_promt span {
+    margin-left: 4px;
+  }
+  
+  .terminal_user {
+    color: #7eda28;
+  }
+  
+  .terminal_location {
+    color: #4878c0;
+  }
+  
+  .terminal_bling {
+    color: #dddddd;
+  }
+  
+ 
