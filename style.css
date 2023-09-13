@@ -67,7 +67,7 @@ button {
 
 .container {
     width: 230px;
-    height: 194px;
+    min-height: 194px;
     margin: 0 auto;
   }
   
